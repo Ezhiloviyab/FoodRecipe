@@ -5,9 +5,7 @@ export default function Sidebar({ links, close }) {
     const location = useLocation();
 
     const handleLinkClick = () => {
-        // You can perform any additional actions on link click if needed
-        // This function can be expanded with custom functionality
-        // Currently, it's just preventing the sidebar from closing immediately
+        
     };
 
     return (
