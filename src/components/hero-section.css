@@ -1,0 +1,21 @@
+ .typography {
+    padding-right: 1em;
+}
+
+
+.typo{
+    position: relative;
+    top: 100px;
+   
+}
+ .gallery .custom-image {
+    border-radius: 3px;
+    overflow: hidden;
+    transform: scale(0);
+    opacity: 0;
+    animation-name: popOut;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+

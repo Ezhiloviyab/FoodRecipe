@@ -1,0 +1,34 @@
+.navbar{
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+        background-color: white;
+}.navbar a {
+    font-weight: bold; 
+    
+    text-decoration: none; }
+.navbar a.active {
+    color:  rgb(210, 2, 61); 
+
+}
+.navbar a:hover{
+     color:  rgb(210, 2, 61); 
+     border-bottom: 2px solid rgb(210, 2, 61) ;
+     box-sizing: content-box;
+}
+.navbar-nav{
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 34px;
+    font-weight: bolder;
+}
+.navbar-brand span{
+    color:  rgb(210, 2, 61);
+    font-size: 28px;
+    font-weight: bolder;
+}
+.navbar-nav{
+    align-items: left;
+    display: flex;
+    justify-content: flex-end;
+}

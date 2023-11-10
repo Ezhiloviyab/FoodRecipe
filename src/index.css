@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&family=Sulphur+Point:wght@400&display=swap');
+
+ :root {
+  --background-color: #fff;
+  --background-light: #fff;
+  --shadow-color: rgba(0, 0, 0, 0.2);
+  --primary-color: rgb(255, 0, 86);
+  --text-color: #0A0A0A;
+  --text-light: #575757;
+  --font-size: 16px;
+  --animation-speed: 1;
+}
+
+body {
+  font-family: 'Sulphur Point', sans-serif; 
+}
+
+body.dancing-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+  height: 55px;
+  box-shadow: 0 3px 6px var(--shadow-color);
+  background-color: var(--background-color);
+  color: rgb(255, 0, 115);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 998;
+
+ 
+}
+.list .card-title{
+  font-size: 20px;
+  font-weight: bolder;
+  color: gold;
+}
+.list .t1,.t2{
+  font-weight: bold;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+}
+.btn {
+  border: none;
+  outline: none;
+  background-color: rgb(210, 2, 61);
+  color: #fff;
+  padding: .50em 1em;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px var(--shadow-color);
+}
+@media screen and (max-width: 768px){
+  .footer {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .footer-section:nth-child(1) {
+    grid-column: span 4;
+}
+
+.footer .footer-section:nth-child(2),
+.footer .footer-section:nth-child(3) {
+    grid-column: span 2;
+}
+}
+.cardslist{
+  position: relative;
+  top: 100px;
+  width: auto;
+  margin-top: -25px;
+  padding-bottom: 100px;
+}
+.set{
+  position: relative;
+  top: 100px;
+  height: 400px;
+  /* margin-top: 100px; */
+}
+.set .ico{
+color: rgb(255, 0, 115);
+}
+.riv{
+  align-items: center;
+
+  justify-content: center;
+  height: auto;
+  padding: 0;
+  margin: 0;
+
+  
+}
+.rivcard{
+  border: 1px solid rgb(255, 0, 115); 
+  
+}

@@ -1,0 +1,21 @@
+
+.section.improve-skills .col.typography {
+    padding-left: 1em;
+}
+
+.section.improve-skills .col.typography.typography .skill-item {
+    border-left: .2em solid var(--primary-color);
+    margin-bottom: .5em;
+    padding: .1em 0 .1em .5em;
+    color: var(--text-light);
+    font-weight: bold;
+    transform: translateX(100%);
+    opacity: 0;
+    animation-name: slideInRight;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
